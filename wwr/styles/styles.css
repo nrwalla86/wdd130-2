@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Roboto&display=swap');
 div {
     max-width: 1600px;
     margin: 0 auto;
@@ -6,6 +7,7 @@ nav a {
     text-align: center;
     color: #0d3b66;
     text-decoration: none;
+    padding: 35px;
 
 }
 #hero-msg h1, #hero-msg h4 {
@@ -26,6 +28,10 @@ main section {
 }
 body {
     background-color: #ccc;
+    font-size: 22px;
+    font-family: Roboto, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 
 }
 header {
@@ -41,6 +47,11 @@ nav a:hover {
     background-color: #ccc;
     color: #0d3b66;
     text-decoration: none;
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 
 }
 .book:hover, .join:hover {
@@ -50,15 +61,20 @@ nav a:hover {
 }
 .msg {
     background-color: #ccc;
-
+    padding: 35px;
 }
 footer {
     background-color: #ccc;
     color: #0d3b66;
+    padding: 25px 50px;
+    margin-top: 200px;
 
 }
 .home-title {
     color: #0d3b66;
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
     color: #0d3b66;
@@ -68,6 +84,8 @@ h4 {
 }
 .msg p {
     color: #0d3b66;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer a:hover {
     color: #0d3b66;
@@ -78,6 +96,7 @@ footer a {
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 .logo {
     width: 80px;
@@ -91,3 +110,21 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 }  
+h2 {
+    margin: 0;
+}
+footer .social img {
+    padding-top: 15px;
+}
+#logo_link {
+    padding-top: 5px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+main section img {
+    box-sizing: border-box;
+}
