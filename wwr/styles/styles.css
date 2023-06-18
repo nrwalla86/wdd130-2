@@ -191,6 +191,15 @@ nav {
     opacity: .6;
     transform: scale(1.1);
 }
+.salmon-msg p{
+    color: #0d3b66;
+}
+.desolation-msg p{
+    color: #0d3b66;
+}
+.grandcanyon-msg p{
+    color: #0d3b66;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
