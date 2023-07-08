@@ -64,7 +64,6 @@ footer {
     color: #A44A3F;
     font-size: 1.2em;
     padding-bottom: 15px;
-    position: absolute;
 }
 .oldfaithful {
     width: 100%;
@@ -86,6 +85,7 @@ footer a {
 }
 #hero-img {
     width: 100%;
+    padding-bottom: 10px;
 }
 footer p {
     font-size: 1.2em;
@@ -123,9 +123,16 @@ nav {
     grid-row: 1/2;
     margin-top: 100px;
 }
-#home-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+.camp-msg {
+    color: #A44A3F;
+    font-size: 1.2em;
+    padding-bottom: 15px;
+}
+.c1 {
+    width: 1000px;
+}
+.c2 {
+    width: 1000px;
 }
 .sidenav {
     height: 100%;

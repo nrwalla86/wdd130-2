@@ -21,6 +21,25 @@
             <a href="contactus.html">Contact Us</a>
         </nav>
     </header>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="site-plan.html">Site Plan</a>
+        <a href="camping.html">Camping</a>
+        <a href="fortyellowstone.html">Fort Yellowstone</a>
+      </div>
+      
+      <h2>Menu</h2>
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+      
+      <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+      </script>
     <div id="hero">
         <div id="hero-box">
             <img id="hero-img" src="Images\f9d5779479142f3.avif" alt="Yellowstone Picture">
@@ -43,27 +62,8 @@
             </p>
         </section>
         <section class="oldfaithful">
-            <img class="Salmon" src="Images\calistogaspa-ttd-old-faithful-geyser.jpg" alt="Old Faithful">\
+            <img class="Salmon" src="Images\calistogaspa-ttd-old-faithful-geyser.jpg" alt="Old Faithful">
         </section>
-        <div id="mySidenav" class="sidenav">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="site-plan.html">Site Plan</a>
-            <a href="camping.html">Camping</a>
-            <a href="fortyellowstone.html">Fort Yellowstone</a>
-          </div>
-          
-          <h2>Menu</h2>
-          <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
-          
-          <script>
-          function openNav() {
-            document.getElementById("mySidenav").style.width = "250px";
-          }
-          
-          function closeNav() {
-            document.getElementById("mySidenav").style.width = "0";
-          }
-          </script>
     </main>
     <footer>
         <p>Yellowstone &copy; 2023 - Noah Wallace</p>
