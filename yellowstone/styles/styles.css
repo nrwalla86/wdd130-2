@@ -145,7 +145,7 @@ nav {
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
-  }
+}
   
   .sidenav a {
     padding: 8px 8px 8px 32px;
@@ -154,11 +154,11 @@ nav {
     color: #818181;
     display: block;
     transition: 0.3s;
-  }
+}
   
   .sidenav a:hover {
     color: #f1f1f1;
-  }
+}
   
   .sidenav .closebtn {
     position: absolute;
@@ -166,7 +166,13 @@ nav {
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
-  }
+}
+  .fy1 {
+    width: 1000px;
+}
+  .fy2 {
+    width: 1000px;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
